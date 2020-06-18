@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("wow.js.css");
 .logo {
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -18,14 +19,14 @@
 	margin-bottom: 15px;
 }
 #top-bg {
-	background-color: #DAF8F3;
+	background-color: #FFF6DF;
 }
 
 
 #greenline {
 	width: 100%;
 	height: 8px;
-	background-color: #2CCBB5;
+	background-color: #A9ECE2;
 }
 .pic-bg {
 }
@@ -82,16 +83,17 @@
 
 
 #coffeetown {
-	color: #2CCBB5;
+	color: #FFEC51;
 	font-family: 'Lato', sans-serif;
 	padding-top: 260px;
 	padding-left: 92px;
 	font-size: 66pt;
 	font-style: italic;
 	font-weight: bold;
+	text-shadow: 0px 0px;
 }
 #coffeetown:hover {
-	color: #2CCBB5;
+	color: #FF7100;
 	font-size: 75pt;
 	font-family: 'Lato', sans-serif;
 	padding-top: 270px;
@@ -120,10 +122,17 @@
 }
 #botton1 {
 
+
 	
 }
+.bgskin {
+	background-color: #FFF6DF;
+	padding-bottom: 96px;
+}
+
+
 #botton1.nav-link :hover {
-	color: #F8A50D;
+	color: #FFEC51;
 	font-family: 'Lato', sans-serif;
 	font-size: 28pt;
 	margin-top: 54px;
@@ -136,7 +145,7 @@
 }
 
 #cake {
-	color: #2CCBB5;
+	color: #FFEC51;
 	font-family: 'Lato', sans-serif;
 	font-size: 66pt;
 	font-style: italic;
@@ -149,6 +158,9 @@
 	left: 193px;
 }
 #dec {
+}
+
+#dec {
 	height: 34px;
 	background-color: #A9ECE2;
 }
@@ -156,13 +168,14 @@
 
 
 
+
 #botton .nav-link:hover {
-	color: #F8A50D;
+	color: #FFEC51;
 	font-family: 'Lato', sans-serif;
 	font-size: 26pt;
 }
 #botton1 .nav-link:hover {
-	color:#FF9E00;
+	color: #FFEC51;
 	font-family: 'Lato', sans-serif;
 	font-size: 20pt;
 	margin-top: 50px;
@@ -332,9 +345,10 @@
 
 
 }
-.menu { margin-left: 0px;
+.menu {
+	margin-left: 0px;
 	margin-top: 0px;
-	color: #2CCBB5;
+	color: #F8A50D;
 	font-weight: bold;
 	font-size: 0pt;
 	padding-top: 0px;
@@ -343,4 +357,31 @@
 	color: 0;
 	
 	
+}
+.nav.flex-column .navbar-toggler .navbar-toggler-icon {
+}
+.carousel-inner  {
+}
+.carousel-item {
+}
+.about-tex {
+	position: absolute;
+	color: #F8A50D;
+	top: 100px;
+	left: 53px;
+}
+
+#s {
+	position: absolute;
+	left: 30px;
+	top: 158px;
+	color: #FFF0C0;
+	padding-left: 36px;
+}
+.txt {
+	margin-left: 50px;
+	margin-top: 36px;
+
+}
+#txt {
 }
